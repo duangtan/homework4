@@ -129,6 +129,7 @@ class _BoxingPageState extends State<BoxingPage> {
                         children: [
                           Icon(Icons.person,size: 75.0 ,color: Color(0xFFA00000),),
                           Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
                                 children: [
@@ -167,6 +168,7 @@ class _BoxingPageState extends State<BoxingPage> {
                         children: [
                           Icon(Icons.person,size: 75.0 ,color: Color(0xFF0000A0),),
                           Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
                                 children: [
